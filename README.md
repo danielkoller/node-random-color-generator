@@ -4,7 +4,8 @@
 
 ## Usage
 
-Generate random color:
+Generates random color if you use node index.js 
 
-$ node index.js ->
-random color
+If you use "node index.js hue" it creates a color with a random hue. 
+
+If you use "node index.js luminosity" it creates a color with a random luminosity. 
