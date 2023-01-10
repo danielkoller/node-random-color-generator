@@ -30,7 +30,7 @@ if (args.length > 0) {
 if (args.length > 1) {
   const lums = ['bright', 'light', 'dark'];
   if (lums.some((lum) => args[1] === lum)) {
-    colorOptions.hue = args[1];
+    colorOptions.luminosity = args[1];
   } else {
     console.log('Invalid choice, Output goes back to Random');
   }
