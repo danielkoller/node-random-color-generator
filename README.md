@@ -6,6 +6,6 @@
 
 Generates random color if you use node index.js 
 
-If you use "node index.js hue" it creates a color with a random hue. 
+If you use "node index.js <color>" it creates a hex colored square with the hex code inside. The color changes the square. 
 
-If you use "node index.js luminosity" it creates a color with a random luminosity. 
+If you use "node index.js <color> <luminosity>" it creates a hex colored square with the hex code inside. The color and luminosity change the square. 
